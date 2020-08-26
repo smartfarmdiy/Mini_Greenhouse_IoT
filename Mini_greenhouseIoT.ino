@@ -1,4 +1,5 @@
-
+//Thank for all supportter open source project
+//We modifed some code, add on some code to be full Mini Greenhouse IoT for education. 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 #include <Wire.h>
@@ -52,11 +53,11 @@ BlynkTimer Timer2;
 LiquidCrystal_I2C lcd(0x27, 20, 4);
 
 // Important: enter your own data below!
-char MySSID[]           = "ICECY";                 // SSID of your WiFi network
-char MyPassword[]       = "49118806";                  // Password of your WiFi network
-char BlynkAuthToken[] = "NRXqQZMtjpCllUNlTZqPJ4Ejor2r_Vnp"; // Your Auth Token in the Blynk App, see the Project Settings (nut icon).
+char MySSID[]           = "xxxxxxx";                 // SSID of your WiFi network
+char MyPassword[]       = "xxxxxxx";                  // Password of your WiFi network
+char BlynkAuthToken[] = "xxxxxxxxxx"; // Your Auth Token in the Blynk App, see the Project Settings (nut icon).
 
-const char* resource = "/trigger/T&H&S_datalogger/with/key/bZSKizBnuHxaMvGgHoxW8n";
+const char* resource = "/trigger/T&H&S_datalogger/with/key/xxxxxxxxxxxxxxxxxxxxx"; //for data logger crated via IFTT.com
 const char* server = "maker.ifttt.com";
 
 float TempAir;                                              // Air temperature
